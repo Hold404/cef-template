@@ -8,11 +8,11 @@ Cef Template - is a Vue application template that has everything you need to cre
 
 ## 📦 How to install and build a project?
 
-To install the project, download the application [here](https://github.com/Hold404/cef-template/releases/latest) and unzip it to a convenient location.  
-Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪  
-To build the project run: `yarn build` or `npm run build`  
-To start the dev server use the command: `yarn dev` or `npm run build`
-To run the previously built project just open file `dist/index.html`
+* To install the project, download the application [here](https://github.com/Hold404/cef-template/releases/latest) and unzip it to a convenient location.  
+* Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪  
+* To build the project run: `yarn build` or `npm run build`  
+* To start the dev server use the command: `yarn dev` or `npm run build`
+* To run the previously built project just open file `dist/index.html`
 
 ## 💻 How to create your own interface?
 
@@ -30,14 +30,14 @@ import { ref } from 'vue';
 import CompositionAPIExample from '@/interfaces/CompositionAPIExample.vue';
 
 export default {
-	components: { CompositionAPIExample, },
-	setup() {
-		const interfaces = ref({
-			CompositionAPIExample: { display: false, }
-		});
+  components: { CompositionAPIExample },
+    setup() {
+      const interfaces = ref({
+      CompositionAPIExample: { display: false, }
+    });
 
-		return { interfaces };
-	},
+    return { interfaces };
+  },
 };
 </script>
 ```
@@ -53,11 +53,13 @@ window.openInterface= function(name: string, args: string) // Opens the interfac
 window.hideInterface= function(name: string) // Closes the interface
 window.interface= function(name: string) // Returns an interface
 ```
-
+    
+      
 ### More details
 
 I will describe only complex control functions, `getInterface`, `interfaceStatus` and `hideInterface` are self-explanatory.
-
+  
+  
 ### openInterface
 
 Opens an interface, has an additional args argument.
@@ -84,4 +86,5 @@ As a result, the interface will be re-rendered and its `name` field will change.
 
 In vue3, when using the `Composition API`, be sure to expose any fields you want to access from outside in `defineExpose`. Below I have left examples of the interface using `Options` and `Composition API`.
 
+  
 > Author: [Hold404](https://github.com/Hold404)
