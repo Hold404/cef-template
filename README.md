@@ -1,6 +1,6 @@
 # Cef Template
 
-![](https://img.shields.io/github/v/release/Hold404/cef-template?label=Release)
+![](https://img.shields.io/github/v/release/Hold404/cef-template?label=Release)  
 Cef Template - is a Vue application template that has everything you need to create your CEF.
 
 > Can be used in RageMp, SAMP or CRMP
