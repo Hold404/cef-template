@@ -1,9 +1,10 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "cef-template",
+  "version": "0.0.1",
+  "author": "Hold404",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --port=5173",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
