@@ -11,7 +11,7 @@ Cef Template - is a Vue application template that has everything you need to cre
 
 ## 📦 How to install and build a project?
 
-* To install the project, download the application [here](https://github.com/Hold404/cef-template/releases/latest) and unzip it to a convenient location.  
+* To install the project, download the application [here](https://github.com/Hold404/cef-template/releases) and unzip it to a convenient location.  
 Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪  
 * To build the project run: `yarn build` or `npm run build`  
 * To start the dev server use the command: `yarn dev` or `npm run build`
