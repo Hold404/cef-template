@@ -96,7 +96,8 @@ _ Example code using the function _
 cef_browser_execute(playerid, "window.showInterface('Test')");
 ```
 
-Download our include in the latest release, replace the default one with it, and you can use the functions in the way above.
+Download our include in the latest release, replace the default one with it, and you can use the functions in the way above.  
+(Also, you can use default `cef.on` etc.)
 
 ## 📑 Notes
 
