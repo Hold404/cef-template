@@ -70,7 +70,7 @@ Opens an interface, has an additional args argument.
 Let's say your interface has a `name` field that you want to specify when you open the interface. You can, of course, just specify a value in the `data` field, but suppose you want to specify it when opening the interface, then the code will look like this:
 
 ```javascript
-window.openInterface('InterfaceName', "[{'name': 'test'}]");
+window.openInterface('InterfaceName', '[{"name": "test"}]');
 ```
 
 The function will parse the arguments and apply them by key to the fields in data.
