@@ -7,10 +7,11 @@
 
 Cef Template - is a Vue application template that has everything you need to create your CEF.
 
-> Can be used in SAMP. GTA V version is available at `gta5` branch.
+> Can be used in SAMP. GTA V version is available at [gta5](https://github.com/Hold404/cef-template/tree/gta5) branch.
 
-<!-- ## Video Example (CEF Template + RageMP)
-[![Example](https://img.youtube.com/vi/Asl-Rfwe4EU/maxresdefault.jpg)](https://youtu.be/Asl-Rfwe4EU) -->
+## Video Example (CEF Template + SAMP)
+
+[![Example](https://img.youtube.com/vi/uhIcGImo52g/maxresdefault.jpg)](https://youtu.be/uhIcGImo52g)
 
 ## 📦 How to install and build a project?
 
@@ -85,6 +86,17 @@ window.interface('InterfaceName').name = 'Test';
 ```
 
 As a result, the interface will be re-rendered and its `name` field will change.
+
+## 📌 How to call window. functions from SAMP?
+
+To use the functions of the window object, we changed the `cef.inc` include. We have added our `cef_browser_execute` function.
+_ Example code using the function _
+
+```pawn
+cef_browser_execute(playerid, "window.showInterface('Test')");
+```
+
+Download our include in the latest release, replace the default one with it, and you can use the functions in the way above.
 
 ## 📑 Notes
 

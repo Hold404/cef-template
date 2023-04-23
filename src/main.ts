@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import './samp';
 import './main.scss';
 
 window.app = createApp(App).mount('#app');
