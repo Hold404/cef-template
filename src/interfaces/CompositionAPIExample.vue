@@ -15,7 +15,7 @@ defineExpose({
 });
 
 /*
-Call it using window.openInterface("CompositionAPIExample", "[{'name': 'Test'}]");
-Or window.openInterface("CompositionAPIExample");
+Call it using window.openInterface('CompositionAPIExample', '[{"name": "Test"}]');
+Or window.openInterface('CompositionAPIExample');
 */
 </script>

@@ -15,7 +15,7 @@ export default {
 };
 
 /*
-Call it using window.openInterface("OptionsAPIExample", "[{'name': 'Test'}]");
-Or window.openInterface("OptionsAPIExample");
+Call it using window.openInterface('OptionsAPIExample', '[{"name": "Test"}]');
+Or window.openInterface('OptionsAPIExample');
 */
 </script>

@@ -32,7 +32,7 @@ window.openInterface = (name: string, args: any) => {
         window.interface(name)[key] = value;
       });
     }
-  }, 10);
+  }, 50);
 
   return;
 };
