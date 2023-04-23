@@ -1,24 +1,25 @@
-<div align="center"><img src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png" data-canonical-src="https://github.com/Hold404/myhome-cef/blob/main/mh.png" width="200" height="200" />
+<div align="center"><img src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png" data-canonical-src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png
 
 # CEF Template</div>
 
 ![](https://img.shields.io/github/v/release/Hold404/cef-template?label=Release)
-![](https://img.shields.io/github/downloads/Hold404/cef-template/total?label=Downloads)  
-  
+![](https://img.shields.io/github/downloads/Hold404/cef-template/total?label=Downloads)
+
 Cef Template - is a Vue application template that has everything you need to create your CEF.
 
 > Can be used in RageMp. SAMP version is available at `samp` branch.
 
 ## Video Example (CEF Template + RageMP)
+
 [![Example](https://img.youtube.com/vi/Asl-Rfwe4EU/maxresdefault.jpg)](https://youtu.be/Asl-Rfwe4EU)
 
 ## 📦 How to install and build a project?
 
-* To install the project, download the application [here](https://github.com/Hold404/cef-template/releases) and unzip it to a convenient location.  
-Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪  
-* To build the project run: `yarn build` or `npm run build`  
-* To start the dev server use the command: `yarn dev` or `npm run build`
-* To run the previously built project just open file `dist/index.html`
+- To install the project, download the application [here](https://github.com/Hold404/cef-template/releases) and unzip it to a convenient location.  
+  Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪
+- To build the project run: `yarn build` or `npm run build`
+- To start the dev server use the command: `yarn dev` or `npm run build`
+- To run the previously built project just open file `dist/index.html`
 
 ## 💻 How to create your own interface?
 
@@ -59,13 +60,11 @@ window.openInterface= function(name: string, args: string) // Opens the interfac
 window.hideInterface= function(name: string) // Closes the interface
 window.interface= function(name: string) // Returns an interface
 ```
-    
-      
+
 ### More details
 
 I will describe only complex control functions, `getInterface`, `interfaceStatus` and `hideInterface` are self-explanatory.
-  
-  
+
 ### openInterface
 
 Opens an interface, has an additional args argument.
@@ -92,5 +91,4 @@ As a result, the interface will be re-rendered and its `name` field will change.
 
 In vue3, when using the `Composition API`, be sure to expose any fields you want to access from outside in `defineExpose`. Below I have left examples of the interface using `Options` and `Composition API`.
 
-  
 > Author: [Hold404](https://github.com/Hold404)
