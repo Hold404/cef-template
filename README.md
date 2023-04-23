@@ -1,4 +1,4 @@
-<div align="center"><img src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png" data-canonical-src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png
+<div align="center"><img src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png" data-canonical-src="https://media.discordapp.net/attachments/1067147407122510004/1099695924864884836/image_9.png" />
 
 # CEF Template</div>
 
