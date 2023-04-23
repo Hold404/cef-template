@@ -7,7 +7,7 @@
 
 Cef Template - is a Vue application template that has everything you need to create your CEF.
 
-> Can be used in RageMp. SAMP version is available at `samp` branch.
+> Can be used in RageMp. SAMP version is available at [samp](https://github.com/Hold404/cef-template/) branch.
 
 ## Video Example (CEF Template + RageMP)
 
