@@ -1,15 +1,20 @@
-# Cef Template
+<div align="center"><img src="https://media.discordapp.net/attachments/1067147407122510004/1099708595517538344/image_10.png" data-canonical-src="https://media.discordapp.net/attachments/1067147407122510004/1099708595517538344/image_10.png" width="200" height="200" />
+
+# CEF Template</div>
 
 ![](https://img.shields.io/github/v/release/Hold404/cef-template?label=Release)
 ![](https://img.shields.io/github/downloads/Hold404/cef-template/total?label=Downloads)
 
 Cef Template - is a Vue application template that has everything you need to create your CEF.
 
-> Can be used in RageMp, SAMP or CRMP
+> Can be used in SAMP. GTA V version is available at `gta5` branch.
+
+<!-- ## Video Example (CEF Template + RageMP)
+[![Example](https://img.youtube.com/vi/Asl-Rfwe4EU/maxresdefault.jpg)](https://youtu.be/Asl-Rfwe4EU) -->
 
 ## 📦 How to install and build a project?
 
-- To install the project, download the application [here](https://github.com/Hold404/cef-template/releases/latest) and unzip it to a convenient location.  
+- To install the project, download the application [here](https://github.com/Hold404/cef-template/releases) and unzip it to a convenient location.  
   Next, in the project folder, run `yarn install` or `npm install` Now, you are ready to write the code. 💪
 - To build the project run: `yarn build` or `npm run build`
 - To start the dev server use the command: `yarn dev` or `npm run build`
