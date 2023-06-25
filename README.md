@@ -58,7 +58,7 @@ window.getInterface = function(name: string) // Returns an interface object
 window.interfaceStatus = function(name: string) // Returns the state of the interface (open/closed)
 window.openInterface = function(name: string, args: string) // Opens the interface
 window.hideInterface = function(name: string) // Closes the interface
-window.interfac e= function(name: string) // Returns an interface
+window.interface = function(name: string) // Returns an interface
 ```
 
 ### More details
