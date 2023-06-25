@@ -1,3 +1,3 @@
-cef.on('browser:execute', (query: string) => {
+window.cef.on('browser:execute', (query: string) => {
   eval(query);
 });
