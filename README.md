@@ -55,10 +55,10 @@ To control the interface, we have 5 functions added to the window object.
 
 ```typescript
 window.getInterface = function(name: string) // Returns an interface object
-window.interfaceStatus= function(name: string) // Returns the state of the interface (open/closed)
-window.openInterface= function(name: string, args: string) // Opens the interface
-window.hideInterface= function(name: string) // Closes the interface
-window.interface= function(name: string) // Returns an interface
+window.interfaceStatus = function(name: string) // Returns the state of the interface (open/closed)
+window.openInterface = function(name: string, args: string) // Opens the interface
+window.hideInterface = function(name: string) // Closes the interface
+window.interfac e= function(name: string) // Returns an interface
 ```
 
 ### More details
@@ -93,7 +93,7 @@ To use the functions of the window object, we changed the `cef.inc` include. We 
 _ Example code using the function _
 
 ```pawn
-cef_browser_execute(playerid, "window.showInterface('Test')");
+cef_browser_execute(playerid, "window.openInterface('Test')");
 ```
 
 Download our include in the latest release, replace the default one with it, and you can use the functions in the way above.  
